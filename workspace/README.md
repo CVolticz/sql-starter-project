@@ -36,8 +36,6 @@ Outside of AI, Data Science, Business Intelligence, Data Analytics, etc. most da
 
 However, in AI, Data Science, Business Intelligence, Data Analytics, etc., it's very common to enhance our analytics using one or more secondary datasets.  In our database, we have a secondary dataset consisting of zip_codes, cities, and states.  From these tables, we can enhance our primary dataset, brining in such additional information as population, density, time_zone, etc.  
 
-Part of w205, especially project 1, is to get students some experience with using secondary datasets to enhance the primary datasets.
-
 Secondary datasets are often denormalized, that is they are not properly modeled in 3NF.  They typically contain redundant data and typically don't have relationships between tables.  Our secondary dataset was setup this way on purpose to give you some experience with this.
 
 All joins between a primary dataset and a secondary dataset where relationships are not defined are classified as dangerous joins.  Even though they are dangerous joins, they are necessary, but should be approached with caution.
