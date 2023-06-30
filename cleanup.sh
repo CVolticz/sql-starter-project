@@ -4,5 +4,5 @@
 ## Shell Script to cleanup the containers after done working
 
 ########################################################
-cd docker/clusters/python_postgres/
+cd ./
 sudo docker-compose down --volumes

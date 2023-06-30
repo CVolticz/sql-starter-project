@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  jupyter:
+    build: 
+      context: ./jupyter
+    image: jupyter
+    links:
+      - postgres
+    volumes:
+      - ./workspace:/workspace
+      - ./data:/data
+    expose:
+      - "8888"
+    ports:
+      - "8888:8888"
+
+  postgres:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_DB: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: project

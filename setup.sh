@@ -41,5 +41,5 @@ fi
 # Build the docker image
 DOCKER_IMAGE="sql-dev-project"
 echo "Initiating the docker image: ${DOCKER_IMAGE}"
-cd ./docker/clusters/python_postgres/
+cd ./
 sudo docker-compose up
