@@ -1,0 +1,8 @@
+ipython
+jupyter
+matplotlib==3.5.3
+numpy==1.23.2
+pandas==1.4.3
+psycopg2-binary
+seaborn==0.11.2
+scipy==1.9.0 
