@@ -20,7 +20,7 @@ Please refer to the respective documentation for more information.
 - [Docker](https://docs.docker.com/desktop/)
 
 
-## Porject
+## Project
 Refers to Jupyter Notebook under workspace to start working! For 
 
 
